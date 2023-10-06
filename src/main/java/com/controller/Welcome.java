@@ -21,7 +21,7 @@ public class Welcome {
 		
 		String invokeGreetService = greetClient.invokeGreetService();
 		
-		return "Welcmoe to Service-1 ( WELCOME ) "+invokeGreetService+":: and port number ================="+port;
+		return "Welcmoe to Service-1 ( WELCOME ) :: and port number ================="+port +" --- "+invokeGreetService;
 	}
 	
 }
